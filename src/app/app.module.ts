@@ -11,6 +11,8 @@ import { ProcessComponent } from './process/process.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { WhereComponent } from './where/where.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { WhereComponent } from './where/where.component';
     ProcessComponent,
     GalleryComponent,
     ContactComponent,
-    WhereComponent
+    WhereComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
