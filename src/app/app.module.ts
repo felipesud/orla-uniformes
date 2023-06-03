@@ -13,6 +13,7 @@ import { FormComponent } from './shared/form/form.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { WppButtonComponent } from './shared/wpp-button/wpp-button.component';
 import { GoogleWidgetComponent } from './shared/google-widget/google-widget.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 
@@ -29,6 +30,7 @@ import { GoogleWidgetComponent } from './shared/google-widget/google-widget.comp
     FooterComponent,
     WppButtonComponent,
     GoogleWidgetComponent,
+    HomeComponent,
     
     
   ],
