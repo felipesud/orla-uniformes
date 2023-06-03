@@ -39,6 +39,6 @@ import { HomeComponent } from './pages/home/home.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MainLayoutComponent]
 })
 export class AppModule { }
