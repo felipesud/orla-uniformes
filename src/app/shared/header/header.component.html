@@ -1,1 +1,34 @@
-<p>header works!</p>
+<mat-toolbar class="header mat-elevation-z4">
+    <div class="logo-container">
+    <span class="logo-span">
+        <a href="/">
+          <img class="logo" src="../../../assets/images/logo.jpg" alt="logo">
+          
+        </a>
+    </span>
+    
+        <div class="navbar">
+            <a mat-button routerLink="/">Orla Uniformes Personalizados</a>
+          <a mat-button routerLink="/" disableRipple>Home</a>
+          <a mat-button routerLink="/sobre">Sobre</a>
+          <a mat-button routerLink="/servicos">Serviços</a>
+          <a mat-button routerLink="/contato">Contato</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+              <mat-icon class="fab fa-facebook"></mat-icon>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon">
+              <mat-icon class="fab fa-instagram"></mat-icon>
+            </a>
+            <a href="https://wa.me/numero-do-telefone" target="_blank" class="social-icon">
+              <mat-icon class="fab fa-whatsapp"></mat-icon>
+            </a>
+            <a href="mailto:seu-email@example.com" class="social-icon">
+              <mat-icon class="fas fa-envelope"></mat-icon>
+            </a>
+          </div>
+          
+    </div>
+</mat-toolbar>

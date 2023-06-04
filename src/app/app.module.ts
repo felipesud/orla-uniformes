@@ -14,8 +14,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { WppButtonComponent } from './shared/wpp-button/wpp-button.component';
 import { GoogleWidgetComponent } from './shared/google-widget/google-widget.component';
 import { HomeComponent } from './pages/home/home.component';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar'
+import { MatListModule } from '@angular/material/list'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -36,7 +38,11 @@ import { HomeComponent } from './pages/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [MainLayoutComponent]
